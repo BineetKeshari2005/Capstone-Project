@@ -1,0 +1,353 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color:black;
+}
+.main-div{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    background-color:rgba(204, 11, 11, 0.09);
+    padding: 0.8em;
+    border-radius: 16px;
+    margin:5vh auto 0;
+    width: 90vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+.nav-bars{
+    display: flex;
+    justify-content: flex-start;
+    width:19vw;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 24px;
+    font-family: 'Serif';
+    color: rgba(0, 0, 0, 1);
+    font-weight:400;
+    transition : transform 0.5s ease;
+
+}
+a:hover{
+    transform:scale(1.17)
+}
+.con{
+    margin-right: 2vw;
+    transition : transform 0.5s ease;
+}
+.con:hover{
+    transform:scale(1.17)
+}
+
+
+.left , .nav-contact {
+    display:flex;
+}
+.left a:first-child{
+    margin-left:0;
+}
+.main-div a:last-child{
+    margin-right:0;
+    
+    
+}
+.Cyberport{
+    font-family: 'Hepta Slab', serif;
+    font-weight: 800;
+    font-size:4vw;
+    color: rgba(0, 0, 0, 1);
+    margin:0 auto;
+    margin-left:20vw;
+
+}
+.main-header{
+    text-align:center;
+    padding : 96px 0px;
+}
+.main-header h1 {
+    font-family:'Libre Franklin',sans-serif;
+    font-weight:800;
+    font-size: 8vw;
+    color:rgba(0, 0, 0, 1);
+
+}
+.main-header img{
+    border-radius:12px;
+    border:1.5px rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    width: 90vw;
+
+    
+}
+    
+
+.projects{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 48px;
+    gap :48px;
+    
+}
+.Project{
+    display:grid;
+    overflow:hidden;
+    gap :10px;
+    transition : transform 0.5s ease,filter 0.5s ease;
+}
+.Project img{
+    width:100%;
+    height:auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.Project:hover {
+    cursor:pointer;
+    transform:scale(0.95);
+    filter:brightness(0.8);
+}
+.Project h3{
+    font-family: serif ;
+    font-size: 1.5vw;
+    font-weight:400;
+    
+    color:rgba(0, 0, 0, 1);
+    margin: 0;
+}
+.Project p{
+    font-family:serif;
+    font-weight:400;
+    font-size:1.26vw;
+    color:rgba(0, 0, 0, 0.6);
+    margin: 0;
+
+}
+.sec-project h1{
+font-family: 'Libre Franklin' serif;
+text-align: left;
+margin-left: 3.64vw;
+font-size:2vw;
+}
+.sec-project {
+    margin-top: 100px;
+}
+.inner{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    padding:0px 48px;
+    gap:48px;
+} 
+
+
+.Proj{
+    display:grid;
+    overflow:hidden;
+    gap:24px;
+
+}
+.Proj img{
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    transition : transform 0.5s ease,filter 0.5s ease , box-shadow 0.5s ease;
+}
+.Proj img:hover{
+    cursor: pointer;
+    transform:scale(0.95);
+    filter:brightness(0.8);
+    box-shadow: rgba(0, 0, 0, 0.6);
+
+}
+.Proj h3{
+    font-family:'Libre Franklin' ,serif;
+    font-weight:800;
+    font-size:1.322vw;
+    line-height:1.587vw;
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    text-align:center;
+}
+.Proj p {
+    text-align:center;;
+    font-family: serif  ;
+    font-weight:400;
+    font-size:1.21vw;
+    line-height:1.23vw;
+    margin:0;
+}
+.Proj button{
+    color:white;
+    background-color:rgba(204, 11, 11, 1);
+    border:none;
+    border-radius:8px;
+    width:124px;
+    height:40px;
+    padding: 10px 16px;
+    margin-top:0;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    
+}
+.Proj button:hover{
+    transform:scale(0.95);
+    
+
+}
+.view-port{
+    text-align:center;
+}
+
+
+.contact-me{
+    text-align:center;
+    margin: 48px;
+    padding-top:200px
+}
+.contact-me h2{
+    font-family:'Libre Franklin', sans-serif;
+    font-weight:800;
+    font-size:28px;
+    line-height:32px;
+    line-height:20px;
+
+}
+.contact-me p{
+    font-family:serif;
+    font-weight:400;
+    font-size:15px;
+
+}
+
+.contact{
+    text-align:center;
+     
+}
+.contact form{
+    display:inline-block;
+}
+.contact input{
+    width:2vw;
+    height: 3vw;
+    border-radius:8px;
+    border: 1.5px solid rgba(0, 0, 0, 0.16);
+    padding:0.3em 0.5em;
+    text-align:center;
+    font-size:1.5em;
+    color:rgba(0, 0, 0, 0.36);
+    font-family:serif;
+    margin:0.05em
+    
+}
+
+
+.submit{
+    width:25vw;
+    display:block;
+    margin:20px auto;
+    padding:10px 16px;
+    border-radius:8px;
+    border:none;
+    color:white;
+    background-color:rgba(204, 11, 11, 1);
+    font-family:'Libre Franklin', sans-serif;
+    font-size:1em;
+    cursor:pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+}
+.submit:hover{
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+.skip{
+    
+    font-family:'Libre Franklin', sans-serif;
+    font-weight: 600;
+    border:none;
+    color:rgba(204, 11, 11, 1);
+    background-color:white;
+    font-size:1em;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.skip:hover{
+    transform: scale(1.1);
+   color: #0056b3;
+}
+.third-project h2{
+    text-align:center;
+    font-family:'Libre Franklin', sans-serif;
+    font-weight:800;
+    font-size:2em;
+    color:rgba(0, 0, 0, 1);
+}
+.third-project {
+    margin-top: 250px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input input{
+    width:444px;
+    height:52px;
+    border-radius:8px;
+    border: 1.5px solid rgba(0, 0, 0, 0.16);
+    padding:0px 12px;
+    margin:8px;
+}
+.input input::placeholder{
+    width:420px;
+    height:24px;
+    font-size:20px;
+    font-family:serif ;
+    font-weight:400;
+    line-height:24px;
+    color:rgba(0, 0, 0, 0.36);
+}
+.input button{
+    width:144px;
+    height:52px;
+    border-radius:8px;
+    color:white;
+    background-color:rgba(204, 11, 11, 1);
+    border:none;
+    padding:14px 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.input button:hover{
+    transform: scale(1.05);
+    background-color: #0056b3;
+}
+.media{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 1em;
+
+    
+}
+.media a img{
+    width:45px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+   
+} 
+
+.media a img:hover{
+    transform: scale(1.05);
+
+} 
+
+
+
+
+
